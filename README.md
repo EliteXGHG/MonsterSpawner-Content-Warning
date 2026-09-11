@@ -18,6 +18,14 @@ A **BepInEx plugin** for [Content Warning](https://store.steampowered.com/app/28
 
 ---
 
+## Screenshots
+
+| **Spawner Menu** |
+|:---:|
+| <img src="images/MONSTER-SPAWNER.png" width="300" /> |
+
+---
+
 ## Quick Start
 
 1. Install [BepInEx for Content Warning](https://thunderstore.io/c/content-warning/p/BepInEx/BepInExPack/)
