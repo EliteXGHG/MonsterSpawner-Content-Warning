@@ -124,7 +124,6 @@ The ??? rows are unused/cut-content entities (Angler, Bites, toolkit variants). 
 Edit your `BepInEx/config/com.monsterspawner.gui.cfg` file:
 
 - **ToggleKey** — the key that opens/closes the menu (default: `F4`)
-- **CloseOnEsc** — also close the menu with Escape (default: `false`)
 
 ---
 
@@ -142,22 +141,3 @@ Press **Report** in the mod menu — fill in Title, Description and Steps to Rep
 Or report directly: [GitHub Issues](https://github.com/EliteXGHG/MonsterSpawner-Content-Warning/issues)
 
 Or message me on Discord: [![Discord](https://img.shields.io/badge/Discord-eliteghg__-5865F2?style=for-the-badge&logo=discord)](https://discord.com/users/eliteghg_)
-
----
-
-## Changelog
-
-<details>
-<summary>v1.0.0 — latest</summary>
-
-- 27 spawnable monsters with wiki-canonical CW-number order and danger levels L0–L10
-- Searchable, favorite-able GUI with amount slider (1–50) and x1/x5/x10 presets
-- Spawn All — batch-spawn every filtered monster (staggered, capped at 120)
-- Kill All + per-monster Kill with confirmation, MOD/VANILLA and danger badges
-- Danger Guide — color-coded legend matching the wiki
-- Input freeze — game camera, clicks and hotkeys stay dormant while menu is open
-- Bug-report popup with system info auto-copy and GitHub auto-open
-- Host-only — clients can't spawn, keeps things fair
-- Rebindable hotkey (F4), Escape toggle option
-- ??? section shows cut-content entities with "No prefab" label for reference
-</details>
