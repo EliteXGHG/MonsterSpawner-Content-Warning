@@ -4,11 +4,11 @@
 
 > Spawn **every monster** in Content Warning at your fingertips — search, favorites, and a danger guide built in.
 
-[![Download](https://img.shields.io/badge/Download-Thunderstore-19a7ce?style=for-the-badge&logo=download)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawner/)
+[![Download](https://img.shields.io/badge/Download-Thunderstore-19a7ce?style=for-the-badge&logo=download)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawnerMod/)
 [![Report Bug](https://img.shields.io/badge/Report%20Bug-GitHub%20Issues-red?style=for-the-badge&logo=github)](https://github.com/EliteXGHG/MonsterSpawner-Content-Warning/issues/new?labels=bug&template=bug_report.md)
 
-[![Version](https://img.shields.io/thunderstore/v/eliteghg/MonsterSpawner?style=for-the-badge&label=Version)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawner/)
-[![Downloads](https://img.shields.io/thunderstore/dt/eliteghg/MonsterSpawner?style=for-the-badge&label=Downloads)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawner/)
+[![Version](https://img.shields.io/thunderstore/v/eliteghg/MonsterSpawnerMod?style=for-the-badge&label=Version)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawnerMod/)
+[![Downloads](https://img.shields.io/thunderstore/dt/eliteghg/MonsterSpawnerMod?style=for-the-badge&label=Downloads)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawnerMod/)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/EliteXGHG/MonsterSpawner-Content-Warning/blob/main/LICENSE)
 [![Game](https://img.shields.io/badge/Game-Content%20Warning-red?style=for-the-badge)](https://store.steampowered.com/app/2881650/Content_Warning/)
 
@@ -18,7 +18,7 @@ A **BepInEx plugin** for [Content Warning](https://store.steampowered.com/app/28
 
 ---
 
-## Preview
+## Screenshots
 
 | **Spawner Menu** |
 |:---:|
@@ -29,7 +29,7 @@ A **BepInEx plugin** for [Content Warning](https://store.steampowered.com/app/28
 ## Quick Start
 
 1. Install [BepInEx for Content Warning](https://thunderstore.io/c/content-warning/p/BepInEx/BepInExPack/)
-2. Download `MonsterSpawnerMod.dll` from [Thunderstore](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawner/)
+2. Download `MonsterSpawnerMod.dll` from [Thunderstore](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawnerMod/)
 3. Copy to `BepInEx/plugins/`
 4. Launch Content Warning and press **F4** to open the menu
 
@@ -45,6 +45,7 @@ A **BepInEx plugin** for [Content Warning](https://store.steampowered.com/app/28
 - **Spawn All** — batch-spawn every filtered monster (staggered, capped at 120 for performance)
 - **Kill All + per-monster Kill** — wipe everything with confirmation, or pick targets from the scrollable Spawned panel with MOD/VANILLA and danger badges
 - **Danger Guide** — color-coded legend from L0 (Harmless) to L10 (Death Is Almost Certain), matching the wiki
+- **Input freeze** — game camera, clicks and hotkeys stay dormant while the menu is open
 - **Bug Reporting** — report popup with Title/Description/Steps; system info + logs auto-copy to clipboard, optional GitHub auto-open
 - **Host-only** — clients can't spawn, keeps things fair
 
@@ -106,14 +107,14 @@ Full list in wiki (CW-number) order:
 | Snail Spawner | L6 | Giant Slug, Slug, CW-031 |
 | Arms | L2 | Accordion Man, CW-033 |
 
-The ??? rows are unused/cut-content entities (Angler, Bites, toolkit variants). They have no prefab in the game's Resources and **cannot be spawned** — the mod shows them with a "No prefab"(NF) label for reference. Barnacle, Snatcher, Infiltrator and Shroomer have no known spawn IDs and are not included.
+The ??? rows are unused/cut-content entities (Angler, Bites, toolkit variants). They have no prefab in the game's Resources and **cannot be spawned** — the mod shows them with a "No prefab" label for reference. Barnacle, Snatcher, Infiltrator and Shroomer have no known spawn IDs and are not included.
 
 ---
 
 ## Installation
 
 1. Install [BepInEx for Content Warning](https://thunderstore.io/c/content-warning/p/BepInEx/BepInExPack/)
-2. Download `MonsterSpawnerMod.dll` from [Thunderstore](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawner/)
+2. Download `MonsterSpawnerMod.dll` from [Thunderstore](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawnerMod/)
 3. Copy `MonsterSpawnerMod.dll` to `BepInEx/plugins/`
 4. Launch the game and press **F4**
 
@@ -124,6 +125,7 @@ The ??? rows are unused/cut-content entities (Angler, Bites, toolkit variants). 
 Edit your `BepInEx/config/com.monsterspawner.gui.cfg` file:
 
 - **ToggleKey** — the key that opens/closes the menu (default: `F4`)
+- **CloseOnEsc** — also close the menu with Escape (default: `false`)
 
 ---
 
