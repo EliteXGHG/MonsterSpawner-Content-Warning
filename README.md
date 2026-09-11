@@ -45,7 +45,6 @@ A **BepInEx plugin** for [Content Warning](https://store.steampowered.com/app/28
 - **Spawn All** — batch-spawn every filtered monster (staggered, capped at 120 for performance)
 - **Kill All + per-monster Kill** — wipe everything with confirmation, or pick targets from the scrollable Spawned panel with MOD/VANILLA and danger badges
 - **Danger Guide** — color-coded legend from L0 (Harmless) to L10 (Death Is Almost Certain), matching the wiki
-- **Input freeze** — game camera, clicks and hotkeys stay dormant while the menu is open
 - **Bug Reporting** — report popup with Title/Description/Steps; system info + logs auto-copy to clipboard, optional GitHub auto-open
 - **Host-only** — clients can't spawn, keeps things fair
 
@@ -107,7 +106,7 @@ Full list in wiki (CW-number) order:
 | Snail Spawner | L6 | Giant Slug, Slug, CW-031 |
 | Arms | L2 | Accordion Man, CW-033 |
 
-The ??? rows are unused/cut-content entities (Angler, Bites, toolkit variants). They have no prefab in the game's Resources and **cannot be spawned** — the mod shows them with a "No prefab" label for reference. Barnacle, Snatcher, Infiltrator and Shroomer have no known spawn IDs and are not included.
+The ??? rows are unused/cut-content entities (Angler, Bites, toolkit variants). They have no prefab in the game's Resources and **cannot be spawned** — the mod shows them with a "No prefab"(NF) label for reference. Barnacle, Snatcher, Infiltrator and Shroomer have no known spawn IDs and are not included.
 
 ---
 
