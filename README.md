@@ -9,7 +9,7 @@
 
 [![Version](https://img.shields.io/thunderstore/v/eliteghg/MonsterSpawner?style=for-the-badge&label=Version)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawner/)
 [![Downloads](https://img.shields.io/thunderstore/dt/eliteghg/MonsterSpawner?style=for-the-badge&label=Downloads)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawner/)
-[![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](https://github.com/EliteXGHG/MonsterSpawner-Content-Warning)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/EliteXGHG/MonsterSpawner-Content-Warning/blob/main/LICENSE)
 [![Game](https://img.shields.io/badge/Game-Content%20Warning-red?style=for-the-badge)](https://store.steampowered.com/app/2881650/Content_Warning/)
 
 A **BepInEx plugin** for [Content Warning](https://store.steampowered.com/app/2881650/Content_Warning/) that lets you spawn every monster in the game with a searchable, favorite-able GUI. Fully host-only so it stays fair — vanilla players never see the mod doing anything weird.
@@ -29,7 +29,7 @@ A **BepInEx plugin** for [Content Warning](https://store.steampowered.com/app/28
 
 ## Features
 
-- **32 monsters** — the full bestiary in wiki (CW-number) order with wiki danger levels L0–L10
+- **27 monsters** — the full bestiary in wiki (CW-number) order with wiki danger levels L0–L10
 - **Search** — filter by name, alias, or ID instantly
 - **Favorites** — star your go-to monsters, saved between sessions
 - **Recent** — quick access to your last 8 spawns
@@ -98,14 +98,8 @@ Full list in wiki (CW-number) order:
 | Ultra Knifo | L6 | Big Knifo, Knifo EX, Grown-Up Knife Ghost, CW-030 |
 | Snail Spawner | L6 | Giant Slug, Slug, CW-031 |
 | Arms | L2 | Accordion Man, CW-033 |
-| Fan Tool | L? | CW-003B, unused |
-| Hammer Tool | L? | MCHAMMER, CW-003C, unused |
-| Iron Tool | L? | TonyStark, CW-003D, unused |
-| Vacuum Tool | L? | SUCC, CW-003E, unused |
-| Angler | L? | CW-018, unused |
-| Bites | L? | CW-035, unused |
 
-Weeping and Robot Button show "Dependant" on the wiki and keep numeric levels here. The ??? rows are unused/unknown entities: spawnable individually (missing ones fail gracefully), fully killable, but excluded from Spawn All. Barnacle, Snatcher, Infiltrator and Shroomer have no known spawn IDs and are not included.
+The ??? rows are unused/cut-content entities (Angler, Bites, toolkit variants). They have no prefab in the game's Resources and **cannot be spawned** — the mod shows them with a "No prefab" label for reference. Barnacle, Snatcher, Infiltrator and Shroomer have no known spawn IDs and are not included.
 
 ---
 
@@ -147,19 +141,16 @@ Or message me on Discord: [![Discord](https://img.shields.io/badge/Discord-elite
 ## Changelog
 
 <details>
-<summary>v1.3.2 — latest</summary>
+<summary>v1.0.0 — latest</summary>
 
-- Danger badges attached to monster buttons
-- ??? category: all unused entities (Angler, Bites + toolkit variants) spawnable individually, killable, excluded from Spawn All
-</details>
-
-<details>
-<summary>v1.3.1</summary>
-
-- Wiki-canonical bestiary: CW-number order with wiki danger levels (incl. L0)
-- MOD/VANILLA + danger pill badges on monster buttons and Spawned rows
-- Scrollable Spawned panel with per-monster Kill buttons
-- Bug-report popup (Title/Description/Steps, auto system info + logs, GitHub auto-open)
-- Game input (camera/clicks/keys) freezes while the menu is open
-- Rebindable hotkey, staggered spawn queue, honest toasts
+- 27 spawnable monsters with wiki-canonical CW-number order and danger levels L0–L10
+- Searchable, favorite-able GUI with amount slider (1–50) and x1/x5/x10 presets
+- Spawn All — batch-spawn every filtered monster (staggered, capped at 120)
+- Kill All + per-monster Kill with confirmation, MOD/VANILLA and danger badges
+- Danger Guide — color-coded legend matching the wiki
+- Input freeze — game camera, clicks and hotkeys stay dormant while menu is open
+- Bug-report popup with system info auto-copy and GitHub auto-open
+- Host-only — clients can't spawn, keeps things fair
+- Rebindable hotkey (F4), Escape toggle option
+- ??? section shows cut-content entities with "No prefab" label for reference
 </details>
