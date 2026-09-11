@@ -18,7 +18,7 @@ A **BepInEx plugin** for [Content Warning](https://store.steampowered.com/app/28
 
 ---
 
-## Screenshots
+## Preview
 
 | **Spawner Menu** |
 |:---:|
