@@ -1,15 +1,20 @@
+<div align="center">
+
 # Monster Spawner
 
 > Spawn **every monster** in Content Warning at your fingertips — search, favorites, and a danger guide built in.
 
+[![Download](https://img.shields.io/badge/Download-Thunderstore-19a7ce?style=flat-square&labelColor=black&logo=thunderstore&logoColor=white)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawnerMod/)
+[![Report Bug](https://img.shields.io/badge/Report%20Bug-GitHub%20Issues-red?style=flat-square&labelColor=black&logo=github&logoColor=white)](https://github.com/EliteXGHG/MonsterSpawner-Content-Warning/issues/new?labels=bug&template=bug_report.md)
+
 [![Version](https://img.shields.io/thunderstore/v/eliteghg/MonsterSpawnerMod?style=flat-square&color=8b5cf6&labelColor=black&label=Version&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPHBhdGggZD0iTTIxLjQxIDExLjU4bC05LTlDMTIuMDUgMi4yMiAxMS41NSAyIDExIDJINGMtMS4xIDAtMiAuOS0yIDJ2N2MwIC41NS4yMiAxLjA1LjU5IDEuNDJsOSA5Yy4zNi4zNi44Ni41OCAxLjQxLjU4LjU1IDAgMS4wNS0uMjIgMS40MS0uNThsNy03Yy4zNy0uMzYuNTktLjg2LjU5LTEuNDEgMC0uNTUtLjIyLTEuMDUtLjU5LTEuNDJ6TTUuNSA3QzQuNjcgNyA0IDYuMzMgNCA1LjVTNC42NyA0IDUuNSA0IDcgNC42NyA3IDUuNSA2LjMzIDcgNS41IDd6Ii8%2BPC9zdmc%2B&logoColor=white)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawnerMod/)
 [![Downloads](https://img.shields.io/thunderstore/dt/eliteghg/MonsterSpawnerMod?style=flat-square&color=22c55e&labelColor=black&label=Downloads&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPHBhdGggZD0iTTE5IDloLTRWM0g5djZINWw3IDcgNy03ek01IDE4djJoMTR2LTJINXoiLz48L3N2Zz4%3D&logoColor=white)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawnerMod/)
-[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square&labelColor=black&logo=opensourceinitiative&logoColor=white)](https://github.com/EliteXGHG/MonsterSpawner-Content-Warning/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square&labelColor=black&logo=gplv3&logoColor=white)](https://github.com/EliteXGHG/MonsterSpawner-Content-Warning/blob/main/LICENSE)
 [![Game](https://img.shields.io/badge/Game-Content%20Warning-red?style=flat-square&labelColor=black&logo=steam&logoColor=white)](https://store.steampowered.com/app/2881650/Content_Warning/)
 
-[![Report Bug](https://img.shields.io/badge/Report%20Bug-GitHub%20Issues-red?style=flat-square&labelColor=black&logo=github&logoColor=white)](https://github.com/EliteXGHG/MonsterSpawner-Content-Warning/issues)
-
 A **BepInEx plugin** for [Content Warning](https://store.steampowered.com/app/2881650/Content_Warning/) that lets you spawn every monster in the game with a searchable, favorite-able GUI. Fully host-only so it stays fair — vanilla players never see the mod doing anything weird.
+
+</div>
 
 ---
 
@@ -17,16 +22,16 @@ A **BepInEx plugin** for [Content Warning](https://store.steampowered.com/app/28
 
 | **Spawner Menu** |
 |:---:|
-| ![Spawner Menu](https://raw.githubusercontent.com/EliteXGHG/MonsterSpawner-Content-Warning/main/images/MONSTER-SPAWNER.png) |
+| <img src="images/MONSTER-SPAWNER.png" width="300" /> |
 
 ---
 
 ## Quick Start
 
 1. Install [BepInEx for Content Warning](https://thunderstore.io/c/content-warning/p/BepInEx/BepInExPack/)
-2. Download `MonsterSpawnerMod.dll` from Thunderstore
+2. Download `MonsterSpawnerMod.dll` from [Thunderstore](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawnerMod/)
 3. Copy to `BepInEx/plugins/`
-4. Launch Content Warning and press <kbd>F4</kbd> to open the menu
+4. Launch Content Warning and press **F4** to open the menu
 
 ---
 
@@ -40,6 +45,7 @@ A **BepInEx plugin** for [Content Warning](https://store.steampowered.com/app/28
 - **Spawn All** — batch-spawn every filtered monster (staggered, capped at 120 for performance)
 - **Kill All + per-monster Kill** — wipe everything with confirmation, or pick targets from the scrollable Spawned panel with MOD/VANILLA and danger badges
 - **Danger Guide** — color-coded legend from L0 (Harmless) to L10 (Death Is Almost Certain), matching the wiki
+- **Input freeze** — game camera, clicks and hotkeys stay dormant while the menu is open
 - **Bug Reporting** — report popup with Title/Description/Steps; system info + logs auto-copy to clipboard, optional GitHub auto-open
 - **Host-only** — clients can't spawn, keeps things fair
 
@@ -108,7 +114,7 @@ The ??? rows are unused/cut-content entities (Angler, Bites, toolkit variants). 
 ## Installation
 
 1. Install [BepInEx for Content Warning](https://thunderstore.io/c/content-warning/p/BepInEx/BepInExPack/)
-2. Download `MonsterSpawnerMod.dll` from Thunderstore
+2. Download `MonsterSpawnerMod.dll` from [Thunderstore](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawnerMod/)
 3. Copy `MonsterSpawnerMod.dll` to `BepInEx/plugins/`
 4. Launch the game and press **F4**
 
@@ -119,6 +125,7 @@ The ??? rows are unused/cut-content entities (Angler, Bites, toolkit variants). 
 Edit your `BepInEx/config/com.monsterspawner.gui.cfg` file:
 
 - **ToggleKey** — the key that opens/closes the menu (default: `F4`)
+- **CloseOnEsc** — also close the menu with Escape (default: `false`)
 
 ---
 
