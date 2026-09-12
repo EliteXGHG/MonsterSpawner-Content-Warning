@@ -2,7 +2,7 @@
 
 # Monster Spawner
 
-> Spawn **every monster** in Content Warning at your fingertips — search, favorites, and a danger guide built in.
+> Spawn **every monster*** in Content Warning.
 
 [![Download](https://img.shields.io/badge/Download-Thunderstore-19a7ce?style=flat-square&labelColor=black&logo=thunderstore&logoColor=white)](https://thunderstore.io/c/content-warning/p/eliteghg/MonsterSpawnerMod/)
 [![Report Bug](https://img.shields.io/badge/Report%20Bug-GitHub%20Issues-red?style=flat-square&labelColor=black&logo=github&logoColor=white)](https://github.com/EliteXGHG/MonsterSpawner-Content-Warning/issues/new?labels=bug&template=bug_report.md)
